@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background-color: #2d3250;
+}
+
+header {
+    background-color: #2d3250;
+    padding: 1em 0; /* Adiciona espaço interno ao header */
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    gap: 1em; /* Espaço entre os itens */
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 0.5em 1em; /* Espaço dentro dos itens de menu */
+}
+
+nav ul li a:hover {
+    background-color: #676f9d; 
+    border-radius: 5px; 
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.cards-container {
+    display: grid; /* Ativa o Grid */
+    grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas de igual largura */
+    gap: 20px; /* Espaçamento entre os cardss */
+    padding: 20px; /* Espaçamento ao redor da seção de cards */
+}
+
+.card {
+    background-color: #d2a679;
+    border-radius: 15px;
+    padding: 15px; /* Ajusta o padding para um melhor espaçamento interno */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1 / 1; /* Mantém a proporção 1:1 para quadrados */
+    display: flex; /* Usar flexbox para centralizar conteúdo */
+    flex-direction: column; /* Para empilhar conteúdo verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-width: 100px; /* Largura mínima reduzida para os cards */
+    max-width: 450px; /* Largura máxima para garantir que não fiquem gigantes */
+}
+
+.card h1 {
+    font-size: 1em; /* Ajusta o tamanho do título */
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #fff;
+    font-size: 0.8em; /* Ajusta o tamanho do texto do parágrafo */
+    margin-bottom: 10px; /* Reduz o espaço abaixo do parágrafo */
+    padding: 0 10px; /* Adiciona padding lateral para melhor leitura */
+}
+
+@media (max-width: 600px) {
+    .cards-container {
+        grid-template-columns: 1fr; /* 1 coluna em telas menores */
+    }
+}
