@@ -54,7 +54,7 @@ section {
 .cards-container {
     display: grid; /* Ativa o Grid */
     grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas de igual largura */
-    gap: 20px; /* Espaçamento entre os cardss */
+    gap: 20px; /* Espaçamento entre os cards */
     padding: 20px; /* Espaçamento ao redor da seção de cards */
 }
 
@@ -69,8 +69,8 @@ section {
     flex-direction: column; /* Para empilhar conteúdo verticalmente */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
-    min-width: 100px; /* Largura mínima reduzida para os cards */
-    max-width: 450px; /* Largura máxima para garantir que não fiquem gigantes */
+    min-width: 80px; /* Largura mínima reduzida para os cards */
+    max-width: 120px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
 }
 
 .card h1 {
