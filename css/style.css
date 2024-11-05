@@ -69,8 +69,8 @@ section {
     flex-direction: column; /* Para empilhar conteúdo verticalmente */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
-    min-width: 80px; /* Largura mínima reduzida para os cards */
-    max-width: 120px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
+    min-width: 180px; /* Largura mínima reduzida para os cards */
+    max-width: 220px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
 }
 
 .card h1 {
