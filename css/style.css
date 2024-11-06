@@ -86,6 +86,13 @@ section {
     padding: 0 10px; /* Adiciona padding lateral para melhor leitura */
 }
 
+.gatoImg{
+    width: 200px;
+    height: 200px;
+    justify-content: left; 
+    justify-content: left;
+}
+
 @media (max-width: 600px) {
     .cards-container {
         grid-template-columns: 1fr; /* 1 coluna em telas menores */
