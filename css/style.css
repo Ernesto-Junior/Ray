@@ -90,25 +90,13 @@ section {
 }
 /* conteiner da imagem */
 
-/*
-
-.card-maior {
-    width: 300px;
-    background-color: #d2a679;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin: auto 20px;
-  }
-
-*/
   .card-maior{
     margin: auto 20px;
     background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo com transparência */
     backdrop-filter: blur(30px); /* Aplica o desfoque no conteúdo atrás do elemento */
-    border-radius: 10px; /* Bordas a*/
+    border-radius: 10px; /* Bordas arredondadas*/
     padding: 20px; /* Espaçamento interno */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar mais profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra suave para dar mais profundidade */
   }  
   /* Define um contêiner para a imagem */
   .imagem-container{
