@@ -63,7 +63,7 @@ section {
 .card {
     background-color: #d2a679;
     border-radius: 15px;
-    padding: 15px; /* Ajusta o padding para um melhor espaçamento interno */
+    padding: 25px; /* Ajusta o padding para um melhor espaçamento interno */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     aspect-ratio: 1 / 1; /* Mantém a proporção 1:1 para quadrados */
@@ -72,7 +72,7 @@ section {
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
     min-width: 180px; /* Largura mínima reduzida para os cards */
-    max-width: 220px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
+    max-width: 360px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
 }
 
 
