@@ -75,6 +75,7 @@ section {
     max-width: 220px; /* Largura máxima ajustada para garantir que não fiquem gigantes */
 }
 
+
 .card h1 {
     font-size: 1em; /* Ajusta o tamanho do título */
     color: #fff;
@@ -88,15 +89,27 @@ section {
     padding: 0 10px; /* Adiciona padding lateral para melhor leitura */
 }
 /* conteiner da imagem */
+
+/*
+
 .card-maior {
     width: 300px;
     background-color: #d2a679;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 40px 20px;
+    margin: auto 20px;
   }
-  
+
+*/
+  .card-maior{
+    margin: auto 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo com transparência */
+    backdrop-filter: blur(30px); /* Aplica o desfoque no conteúdo atrás do elemento */
+    border-radius: 10px; /* Bordas a*/
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar mais profundidade */
+  }  
   /* Define um contêiner para a imagem */
   .imagem-container{
     width: 100%;
@@ -122,13 +135,13 @@ section {
   }
   
   .card-content h2 {
-    color: #2d3250;
+    color: white;
     margin: 0 0 10px;
   }
   
   .card-content p {
     font-size: 0.9em;
-    color: #333;
+    color: white;
   }
 
 @media (max-width: 600px) {
