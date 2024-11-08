@@ -13,6 +13,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     background-color: #2d3250;
+    padding: 30px;
 }
 
 header {
@@ -40,8 +41,6 @@ nav ul li a:hover {
 }
 
 main {
-  max-width: 1000px;
-  min-width: 300px;
   margin: auto;
   margin-bottom: 30px;
   padding: 20px;
